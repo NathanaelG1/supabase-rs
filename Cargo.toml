@@ -1,0 +1,13 @@
+[package]
+name = "supabase-rs"
+version = "0.1.0"
+edition = "2021"
+authors = ["Nathanael Guirguis <nathanael.guirguis@gmail.com>"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+postgrest = "1.0"
+reqwest = "0.11.20"
+serde = { version = "1.0", features = ["derive"] }
+url = "2.4.1"
